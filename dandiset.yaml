@@ -6,11 +6,23 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 6567381040
+  numberOfFiles: 81
+  numberOfSubjects: 5
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rattus norvegicus - Norway rat
+    schemaKey: SpeciesType
+  variableMeasured: []
 citation: Koloski, Miranda  (2023) 32-CH Local Field Potential Data During Probabilistic
-  Reversal Learning Task (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000561/draft
+  Reversal Learning Task (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   email: mfrancoeur@health.ucsd.edu
@@ -20,6 +32,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-06-09T22:07:42.662845+00:00'
+datePublished: '2023-09-21T00:54:54.398224+00:00'
 description: 'Male Long Evans Rats 7-12 months of age. 24 total animals. 256 sessions.  13
   animals received a frontal traumatic brain injury (controlled cortical impact).
   11 animals received Sham (no craniotomy no TBI) conditions. One week later, rats
@@ -33,6 +46,7 @@ description: 'Male Long Evans Rats 7-12 months of age. 24 total animals. 256 ses
   was used to integrate physiology data with behavior. Physiology can be time-locked
   to trial onset (rat responds to start trial), response (rat choice between noseports),
   reward (time of reward delivery). '
+doi: 10.80507/dandi.123456/0.123456.1234
 id: DANDI:000561/draft
 identifier: DANDI:000561
 license:
@@ -40,6 +54,18 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000561/versions/draft/assets/
 name: 32-CH Local Field Potential Data During Probabilistic Reversal Learning Task
+publishedBy:
+  endDate: '2023-09-21T00:54:54.398224+00:00'
+  id: urn:uuid:542ee231-e069-4c8c-bfc9-8044169366f3
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-09-21T00:54:54.398224+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:f84e50a7-44e4-485a-a563-ad7ccf364fd4
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
