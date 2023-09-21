@@ -12,9 +12,9 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 6567381040
-  numberOfFiles: 81
-  numberOfSubjects: 5
+  numberOfBytes: 13724497060
+  numberOfFiles: 203
+  numberOfSubjects: 13
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
@@ -32,7 +32,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-06-09T22:07:42.662845+00:00'
-datePublished: '2023-09-21T00:54:54.398224+00:00'
+datePublished: '2023-09-21T01:13:55.472544+00:00'
 description: 'Male Long Evans Rats 7-12 months of age. 24 total animals. 256 sessions.  13
   animals received a frontal traumatic brain injury (controlled cortical impact).
   11 animals received Sham (no craniotomy no TBI) conditions. One week later, rats
@@ -55,13 +55,13 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000561/versions/draft/assets/
 name: 32-CH Local Field Potential Data During Probabilistic Reversal Learning Task
 publishedBy:
-  endDate: '2023-09-21T00:54:54.398224+00:00'
-  id: urn:uuid:542ee231-e069-4c8c-bfc9-8044169366f3
+  endDate: '2023-09-21T01:13:55.472544+00:00'
+  id: urn:uuid:df8bc807-e353-493d-988b-b7a842bb2019
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-09-21T00:54:54.398224+00:00'
+  startDate: '2023-09-21T01:13:55.472544+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:f84e50a7-44e4-485a-a563-ad7ccf364fd4
+  - id: urn:uuid:55a67d3f-0840-4d02-9013-585dab203416
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
